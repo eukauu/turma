@@ -1,11 +1,14 @@
-/*SELETOR UNIVERSAL*/
+/*SELETOR UNNIVERSAL*/
+*{margin: 0px;
+padding: 0px;
+}
+
+/*CORPO DA PÁGINA*/
 body{
     font-family: sans-serif;
 }
 
-*{ margin: 0px;
-padding: 0px;
-}
+/*SECÇAO CABECALHO*/
 
 .cabecalho{
 background-color: rgba(255, 0, 0);
@@ -26,8 +29,10 @@ display: inline-block;
 padding: 0 100px;
 }
 
+/*SECÇAO TURMA*/
+
 .frutas{
-background-image: linear-gradient(rgba(255, 0, 0))rgba rgb(255, 0, 0);(255, 0, 0)
+background-image: linear-gradient(rgba(255, 0, 0))rgba rgb(255, 0, 0);
 
 }
 
@@ -36,7 +41,41 @@ padding-bottom: 30px;
 text-align: center;
 }
 
+.fruta-div{
+display: flex;
+justify-content: center;
+}
+
 .frutas-imagem{
 width: 300px;
 }
 
+/*SECÇAO ESTUDANTE*/
+
+.frutaria{
+background-image: linear-gradient(rgb(255, 0, 0))rgb(255, 255, 255);
+}
+
+.frutas-titulo{
+text-align: center;
+font-size: 24px;
+padding: 30px 0;
+}
+
+.fruta-div{
+text-align: center;
+}
+
+.frutas-imagem{
+width: 90px;
+height: 100px;
+}
+
+.frutas-icone{
+width: 52px;
+height: 53px;
+}
+
+.frutaria-legenda{
+font-size: 14px;
+}
